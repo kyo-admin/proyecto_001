@@ -1,0 +1,39 @@
+.mi-navbar {
+  grid-column: 1 / 4; /* Ocupa tres columnas */
+}
+
+.mi-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.mi-navbar-brand a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.mi-navbar-search input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.mi-navbar-search button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.mi-navbar-search button:hover {
+  background-color: #45a049;
+}

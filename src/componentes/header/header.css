@@ -1,0 +1,37 @@
+.mi-cabecera {
+  grid-column: 1 / span 3; /* Ocupa tres columnas */
+}
+
+.mi-cabecera {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.mi-cabecera label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.mi-cabecera input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.mi-cabecera button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mi-cabecera button:hover {
+  background-color: #45a049;
+}
